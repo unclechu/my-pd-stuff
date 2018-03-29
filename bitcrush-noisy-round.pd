@@ -1,36 +1,38 @@
 #N canvas 962 1276 956 994 10;
-#X obj 161 158 hsl 100 15 1 16 0 1 empty empty bits -2 -8 0 10 -262144
--1 -1 9900 1;
+#X obj 161 158 hsl 120 15 1 16 0 1 empty empty bits\ (from\ 1\ to\ 16)
+-2 -8 0 10 -262144 -1 -1 11900 1;
 #X obj 96 251 inlet~;
-#X obj 243 532 outlet~;
-#X obj 161 187 hsl 100 15 0 1 0 1 empty empty dry/wet -2 -8 0 10 -262144
--1 -1 9900 1;
+#X obj 243 530 outlet~;
+#X obj 161 187 hsl 120 15 0 1 0 1 empty empty dry/wet -2 -8 0 10 -262144
+-1 -1 11880 1;
 #X obj 325 395 *~;
 #X obj 97 442 *~;
 #X msg 64 367 1;
-#X obj 100 369 -;
+#X obj 103 367 -;
 #X floatatom 81 398 5 0 0 0 - - -, f 5;
 #X text 351 394 wet;
 #X text 70 441 dry;
 #X floatatom 327 348 5 0 0 0 - - -, f 5;
 #X obj 74 337 t b f;
-#X obj 317 209 pow;
+#X obj 318 202 pow;
 #X msg 318 171 2;
-#X obj 324 136 t b f;
-#X floatatom 313 285 10 0 0 0 - - -, f 10;
-#X obj 310 83 loadbang;
-#X obj 186 311 *~;
+#X obj 318 142 t b f;
+#X floatatom 318 258 10 0 0 0 - - -, f 10;
+#X obj 64 92 loadbang;
+#X obj 217 314 *~;
 #X obj 360 170 - 1;
-#X obj 305 244 int;
-#X text 382 284 bit max value;
-#X obj 243 509 min~ 1;
+#X obj 318 230 int;
+#X text 387 257 bit max value;
+#X obj 243 507 min~ 1;
 #X obj 243 484 max~ -1;
 #X obj 156 344 int_fract~;
-#X obj 149 428 /~, f 2;
-#X obj 215 377 >~ 0;
-#X obj 174 391 +~;
-#X obj 241 435 &&~;
-#X obj 256 374 >~ 0;
+#X obj 156 410 /~, f 2;
+#X obj 213 378 >~ 0;
+#X obj 156 379 +~;
+#X obj 224 428 &&~;
+#X obj 246 378 >~ 0;
+#X obj 172 75 inlet;
+#X obj 225 75 inlet;
 #X connect 0 0 15 0;
 #X connect 1 0 5 0;
 #X connect 1 0 18 0;
@@ -65,4 +67,6 @@
 #X connect 27 0 25 0;
 #X connect 28 0 27 1;
 #X connect 29 0 28 1;
-#X coords 0 -1 1 1 125 87 1 151 126;
+#X connect 30 0 0 0;
+#X connect 31 0 3 0;
+#X coords 0 -1 1 1 145 88 1 151 126;
