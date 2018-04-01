@@ -1,6 +1,8 @@
 #include <m_pd.h>
 #include <stdbool.h>
 
+#define NAME "samplefreeze~"
+
 // 'p' means 'patch' (don't wanna long names everywhere)
 static t_class *p_class;
 

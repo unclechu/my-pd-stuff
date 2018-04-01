@@ -1,4 +1,4 @@
-#N canvas 962 1256 476 1014 10;
+#N canvas 2 1256 1916 1014 10;
 #X obj 314 332 samplefreeze~;
 #N canvas 0 0 450 300 (subpatch) 0;
 #X array debug1 100 float 3 black black;
