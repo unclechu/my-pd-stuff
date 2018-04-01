@@ -1,4 +1,4 @@
-#N canvas 1442 1796 476 474 10;
+#N canvas 1442 1276 476 994 10;
 #X obj 153 154 hsl 120 15 1 16 0 1 empty empty bits\ (from\ 1\ to\ 16)
 -2 -8 0 10 -262144 -1 -1 11900 1;
 #X obj 152 195 inlet~;
