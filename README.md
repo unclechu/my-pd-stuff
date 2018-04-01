@@ -6,6 +6,8 @@ Just a pile of my own patches for Pure Data.
 
 ![Screenshot](./artwork/readme-screenshot-2.png)
 
+![Screenshot](./artwork/readme-screenshot-3-guitarset.png)
+
 # Author
 
 Viacheslav Lotsmanov
