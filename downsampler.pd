@@ -6,11 +6,11 @@
 #X obj 12 218 inlet~;
 #X obj 84 73 inlet;
 #X obj 12 408 outlet~;
-#X obj 192 73 int;
+#X obj 189 83 int;
 #X obj 71 218 count~;
 #X obj 12 325 *~;
 #X obj 71 268 ==~ 0;
-#X obj 294 141 + 1;
+#X obj 240 142 + 1;
 #X obj 55 325 samplefreeze~;
 #X obj 124 268 >~ 0;
 #X obj 72 358 *~;
