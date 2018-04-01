@@ -1,0 +1,12 @@
+#N canvas 1539 1276 379 994 10;
+#X obj 9 73 -;
+#X msg 9 52 1;
+#X obj 9 31 t b f;
+#X obj 9 10 inlet;
+#X obj 9 94 outlet;
+#X text 59 48 inverts a value that between 0 and 1;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 2 1 0 1;
+#X connect 3 0 2 0;
