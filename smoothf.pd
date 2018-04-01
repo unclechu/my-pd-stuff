@@ -1,9 +1,0 @@
-#N canvas 962 1276 476 994 10;
-#X obj 7 12 inlet;
-#X obj 7 75 outlet;
-#X obj 7 54 line;
-#X obj 7 33 pack f 50;
-#X text 87 34 50 msecs ramp for changing a value;
-#X connect 0 0 3 0;
-#X connect 2 0 1 0;
-#X connect 3 0 2 0;

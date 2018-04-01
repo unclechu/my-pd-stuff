@@ -1,6 +1,6 @@
 #N canvas 1282 1276 636 994 10;
-#X obj 157 140 hsl 120 15 1 16 0 1 empty empty bits\ limit -2 -8 0
-10 -262144 -1 -1 11900 1;
+#X obj 157 140 hsl 120 15 1 16 0 1 empty empty bits\ limit\ (noisy)
+-2 -8 0 10 -262144 -1 -1 11900 1;
 #X obj 104 188 inlet~;
 #X obj 104 303 outlet~;
 #X obj 278 252 pow;
